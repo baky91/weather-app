@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Météo</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Météo</h1>
+        <div class="search">
+            <input type="text" id="city" placeholder="Entrez une ville">
+            <button id="btn-search"><img src="./img/search.png"></button>
+        </div>
+
+        <div class="weather">
+            <h2 class="city"></h2>
+            <img class="weather-icon">
+            <h3 class="weather-condition"></h1>
+            <h1 class="temp"></h1>
+            <h2 class="temp-min-max"></h2>
+            
+            <div class="details">
+                <div class="col">
+                    <img src="./img/humidity.png">
+                    <div>
+                        <p class="humidity"></p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/wind.png">
+                    <div>
+                        <p class="wind"></p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="forecast"></div>
+            <!-- <div class=""></div> -->
+            
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
